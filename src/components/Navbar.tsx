@@ -1,13 +1,10 @@
 import React from "react";
+import "../assets/Header.scss";
 
 type Navbar = {};
 
 const Navbar = () => {
-  return (
-    <div>
-      <h1>Nav 영역입니다.</h1>
-    </div>
-  );
+  return <div className="nav_bar"></div>;
 };
 
 export default Navbar;
